@@ -16,12 +16,12 @@ Order of work:
 Items 2-3 and 4-5 can be combined.
 
 Functions:
-- __construct - creating object
-- set_task - setting import parameters(parameters are passed as an associative array)
-- import - data import
-- get_data - preview data to be imported
-- reset_data - deleting data for import
-- set_data - setting data to import
+ - __construct - creating object
+ - set_task - setting import parameters(parameters are passed as an associative array)
+ - import - data import
+ - get_data - preview data to be imported
+ - reset_data - deleting data for import
+ - set_data - setting data to import
 
 # DataImportToMySQL
 Инструмент для импорта данных в MySQL.
@@ -33,9 +33,9 @@ Functions:
 1. Создаем объект MySQLWork для работы с базой
 2. Создаем объект DataImportToMySQL
 3. Задаем параметры импорта:
-  - import_table_info => table_name(fild1,fild2,...fildN) => имя и поля таблицы для вставки данных
-  - rows_empty_allowed_cnt => колличество пустых рядов, которое нужно пропустить (титул и заглавие исходных данных)
-  - truncate_table => нужно ли очищать таблицу перед импортом
+   - import_table_info => table_name(fild1,fild2,...fildN) => имя и поля таблицы для вставки данных
+   - rows_empty_allowed_cnt => колличество пустых рядов, которое нужно пропустить (титул и заглавие исходных данных)
+   - truncate_table => нужно ли очищать таблицу перед импортом
 4. Передаем данные для импорта
 5. Импортируем
 Пункты 2-3 и 4-5 могут быть объеденены.
